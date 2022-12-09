@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.dropbtn {
+    background-color: #235390;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    border-style: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border: 1px solid #235390;
+    border-radius: 20px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+}
+
+header {
+    background-color: #235390;
+    width: 100%;
+    height: 100vh;
+    background-image: url("./img/4986531ca822d48e57b4a18f40ff5172.svg");
+}
+
+.navdiv1 {
+    width: 200px;
+    height: 100px;
+}
+
+.navdivmain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.forflex {
+    display: flex;
+    flex-direction: column;
+}
+
+.navdiv1 {
+    padding-top: 30px;
+}
+
+.headermain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 200px;
+}
+
+.headerworld {
+    size: 30px;
+}
+
+.headertextbutton {
+    font-size: 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.butonheaderfirst {
+    width: 320px;
+    height: 50px;
+    text-align: center;
+    border-radius: 23px;
+    border: 2px solid rgb(71, 98, 17);
+    background-color: rgb(120, 177, 4);
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    font-family: serif;
+    cursor: pointer;
+}
+
+.butonheaderfirst:hover {
+    background-color: rgb(154, 204, 54)
+}
+
+.butonheadersecond:hover {
+
+    background-color: #1b498a;
+}
+
+.butonheadersecond {
+    width: 320px;
+    height: 50px;
+    border: 3px solid #0a2750;
+    border-radius: 20px;
+    background-color: #235390;
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    cursor: pointer;
+
+
+}
+
+.umumidivheader {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.headerthe {
+    width: 780px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.generalmaindiv {
+    padding-top: 80px;
+}
+
+.forfoto1 {
+    width: 120px;
+    height: 100px;
+    padding-right: 50px;
+}
+
+.main1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.textmain1 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.textmain1 p {
+    width: 700px;
+    color: #a17777;
+    line-height: 22px;
+    font-family: sans-serif;
+}
+
+hr {
+    width: 1000px;
+    margin-left: 450px;
+    color: gray;
+}
